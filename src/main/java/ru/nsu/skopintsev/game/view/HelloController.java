@@ -1,4 +1,4 @@
-package ru.nsu.skopintsev.game;
+package ru.nsu.skopintsev.game.view;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

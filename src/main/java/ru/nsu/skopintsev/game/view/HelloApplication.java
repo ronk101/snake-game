@@ -1,4 +1,4 @@
-package ru.nsu.skopintsev.game;
+package ru.nsu.skopintsev.game.view;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
