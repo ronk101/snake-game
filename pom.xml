@@ -5,9 +5,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>ru.nsu.skopintsev</groupId>
-  <artifactId>game</artifactId>
+  <artifactId>snake-game</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>game</name>
+  <name>snake-game</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -80,7 +80,7 @@
             <!-- Default configuration for running with: mvn clean javafx:run -->
             <id>default-cli</id>
             <configuration>
-              <mainClass>ru.nsu.skopintsev.game/ru.nsu.skopintsev.game.HelloApplication</mainClass>
+              <mainClass>ru.nsu.skopintsev.game.HelloApplication</mainClass>
               <launcher>app</launcher>
               <jlinkZipName>app</jlinkZipName>
               <jlinkImageName>app</jlinkImageName>
