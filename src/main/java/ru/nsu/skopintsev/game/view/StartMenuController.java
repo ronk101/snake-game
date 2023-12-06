@@ -6,9 +6,10 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.ButtonType;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
+import lombok.extern.log4j.Log4j2;
 
+@Log4j2
 public class StartMenuController {
-
     @FXML
     private TextField nicknameInput;
 
@@ -18,18 +19,22 @@ public class StartMenuController {
     @FXML
     private void createRoom(ActionEvent event) {
         if (isNicknameValid()) {
-            System.out.println("Creating room...");
+            //System.out.println("Creating room...");
+            log.info("Creating room...");
         } else {
-            System.out.println("Enter your nickname!");
+            //System.out.println("Enter your nickname!");
+            log.info("Enter your nickname!");
         }
     }
 
     @FXML
     private void joinRoom(ActionEvent event) {
         if (isNicknameValid()) {
-            System.out.println("Joining room...");
+            //System.out.println("Joining room...");
+            log.info("Joining room...");
         } else {
-            System.out.println("Enter your nickname!");
+            //System.out.println("Enter your nickname!");
+            log.info("Enter your nickname!");
         }
     }
 
