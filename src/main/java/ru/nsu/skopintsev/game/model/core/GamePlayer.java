@@ -1,11 +1,11 @@
 package ru.nsu.skopintsev.game.model.core;
 
 
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
-@Getter
-@Setter
+@Data
 public class GamePlayer {
     private String name;
     private int id;

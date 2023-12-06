@@ -1,11 +1,16 @@
 package ru.nsu.skopintsev.game.model.core;
 
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
-@Getter
-@Setter
+@Data
 public class Coord {
     private int x;
     private int y;
+
+    public Coord(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
 }

@@ -1,12 +1,12 @@
 package ru.nsu.skopintsev.game.model.core;
 
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
 import java.util.List;
 
-@Getter
-@Setter
+@Data
 public class GameState {
     private int stateOrder;
     private List<Snake> snakes;
