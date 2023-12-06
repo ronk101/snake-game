@@ -6,6 +6,7 @@ module ru.nsu.skopintsev.game {
     requires org.kordamp.bootstrapfx.core;
     requires java.desktop;
     requires protobuf.java;
+    requires lombok;
 
     exports ru.nsu.skopintsev.game;
     opens ru.nsu.skopintsev.game to javafx.fxml;
